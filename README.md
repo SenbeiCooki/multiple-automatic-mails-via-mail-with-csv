@@ -19,10 +19,10 @@ email.mime
 1. CSV File Format
 The script reads a CSV file to retrieve email addresses and recipient names. The CSV should have the following format:
 
-email	name
-example1@gmail.com	Genossenschaft A
-example2@gmail.com	Genossenschaft B
-...	...
+email,name
+example1@gmail.com,Genossenschaft A
+example2@gmail.com,Genossenschaft B
+
 
 2. Script Configuration
 Before running the script, you need to configure the following variables in the script:
